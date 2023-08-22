@@ -1,0 +1,53 @@
+import React, { useState } from 'react'
+
+// const useState = (initialValue) => {
+//   return [
+//     initialValue,
+//     () => {
+//       ////
+//     }
+//   ]
+// }
+
+const Day1 = () => {
+
+    const destructureArr = [10, 'Ali'];
+
+    const objDestructure = {
+        useName: 'Ali',
+        rollNo: 10,
+        password: 1234
+    }
+
+
+    const stateUser = useState()
+    const [state, setState] = useState(10)
+
+    const [ArrayState, name] = destructureArr;
+
+    const { password } = objDestructure;
+
+    if (state === 9) {
+        // const [mystate, setMyState] = stateUser(10)
+    }
+
+    // const handleClick = function(value)  {
+    //   console.log(value);
+    // }
+    const handleClick = (value) => {
+        console.log(value);
+    }
+
+    return (
+        <div>
+            {ArrayState}
+            {name}
+            {password}
+            {/* {state} */}
+            {/* <button onClick={() => console.log('hello')}>hello</button > */}
+            {/* <button onClick={handleClick('name')}>increment</button> */}
+        </div>
+    )
+}
+
+export default Day1

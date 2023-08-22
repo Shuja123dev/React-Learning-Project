@@ -1,0 +1,16 @@
+21/08/2023
+
+to create react app
+1. npx create-react-app appName   (creates a react app)
+2. npx create-react-app . 
+
+to start a react app
+1.npm start
+or
+2.npm run start
+
+Array destructuring.
+Object destructuring.
+Deep Concept of State.
+How Call functions on several Events?
+Arrow Function and normal Function
