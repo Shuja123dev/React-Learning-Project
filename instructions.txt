@@ -35,4 +35,39 @@ React Shortcut key extension
 ES7+ React/Redux/React-Native snippets
 
 
+23/08/2023
+
+
+Props
+a. Props is a way to share data between parent and child component.
+b. Props cannot be replaced by Context API or Redux.
+c. Props are used to make a component reuseable.
+
+There are two ways to call props in child component:
+1. By calling complete props object.
+2. By Directly calling a prop.
+
+
+Children Prop
+It gives us the children of a component
+
+Routing
+a. Install react-router-dom for routing in react
+b. `npm install react-router-dom` is command to install react-router-dom
+
+How to switch a route on any event?
+
+a. NavLink is used to change route on click on any html element.
+	( Wrap that element with 
+			<NavLink to=''> 
+				<html Element/>
+			</NavLink>
+	give route in to='' )
+
+
+
+
+
+
+
 
