@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import Day1 from './Meetings/Day1';
+import { Day2 } from './Meetings/Day2';
+import Day3 from './Meetings/Day3';
 
 function App() {
 
   return (
     <>
-      <Day1 />
+      <Day2 />
     </>
   );
 }

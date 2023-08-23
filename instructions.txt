@@ -1,16 +1,38 @@
 21/08/2023
 
-to create react app
-1. npx create-react-app appName   (creates a react app)
-2. npx create-react-app . 
+To create react app
+a. npx create-react-app appName   (creates a react app)
+b. npx create-react-app . 
 
-to start a react app
-1.npm start
-or
-2.npm run start
+To start a react app
+a.npm start
+    or
+b.npm run start
 
 Array destructuring.
 Object destructuring.
 Deep Concept of State.
 How Call functions on several Events?
 Arrow Function and normal Function
+
+
+
+22/08/2023
+
+Concept of setter Function in state
+a. Whenever setter function is called, component will be rendered.
+b. At second render, initial value will be ignored.
+c. We can see updated value outside the event function eg,. handleClick()
+
+UseEffect
+a. Used to execute a function on basis of dependency array.
+b. useCallback is used in a special case.
+
+Default Export and Named Export
+
+
+React Shortcut key extension
+ES7+ React/Redux/React-Native snippets
+
+
+
